@@ -44,12 +44,6 @@ double apk(unordered_set<unsigned long> &actual, vector<unsigned long> &predicte
     if (num_hit != 0)
         score /= actual.size();
 
-    // cout << "act:" << *(actual.begin()) << '\t';
-    // for (int i = 0; i < num_pred; i++){
-    //     cout << predicted[i] << '\t';
-    // }
-    // cout << score << endl;
-
     return score;
 }
 
@@ -2214,214 +2208,214 @@ void run_validation(){
 
     /* 1 : 2.5 version */
 
-    // generate_grid(447, 1118, f_valid_train, itime, grid, prep_xy);
+    generate_grid(447, 1118, f_valid_train, itime, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(447, 1118, f_valid_test, max_rank, 2 * weight, itime, score, grid_top);
+    update_score(447, 1118, f_valid_test, max_rank, 2 * weight, itime, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "itime done" << endl;
+    cout << "itime done" << endl;
 
-    // generate_grid(134, 335, f_valid_train, dayround0, grid, prep_xy);
+    generate_grid(134, 335, f_valid_train, dayround0, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(134, 335, f_valid_test, max_rank, weight, dayround0, score, grid_top);
+    update_score(134, 335, f_valid_test, max_rank, weight, dayround0, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "dayround0 done" << endl;
+    cout << "dayround0 done" << endl;
 
-    // generate_grid(225, 559, f_valid_train, dayround, grid, prep_xy);
+    generate_grid(225, 559, f_valid_train, dayround, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(225, 559, f_valid_test, max_rank, weight, dayround, score, grid_top);
+    update_score(225, 559, f_valid_test, max_rank, weight, dayround, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "dayround done" << endl;
+    cout << "dayround done" << endl;
 
-    // generate_grid(357, 894, f_valid_train, dayround2, grid, prep_xy);
+    generate_grid(357, 894, f_valid_train, dayround2, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(357, 894, f_valid_test, max_rank, weight, dayround2, score, grid_top);
+    update_score(357, 894, f_valid_test, max_rank, weight, dayround2, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "dayround2 done" << endl;
+    cout << "dayround2 done" << endl;
 
-    // generate_grid(380, 950, f_valid_train, dayround3, grid, prep_xy);
+    generate_grid(380, 950, f_valid_train, dayround3, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(380, 950, f_valid_test, max_rank, weight, dayround3, score, grid_top);
+    update_score(380, 950, f_valid_test, max_rank, weight, dayround3, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "dayround3 done" << endl;
+    cout << "dayround3 done" << endl;
 
-    // generate_grid(407, 1019, f_valid_train, dayround4, grid, prep_xy);
+    generate_grid(407, 1019, f_valid_train, dayround4, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(407, 1019, f_valid_test, max_rank, weight, dayround4, score, grid_top);
+    update_score(407, 1019, f_valid_test, max_rank, weight, dayround4, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "dayround4 done" << endl;
+    cout << "dayround4 done" << endl;
 
-    // generate_grid(425, 1062, f_valid_train, dayround8, grid, prep_xy);
+    generate_grid(425, 1062, f_valid_train, dayround8, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(425, 1062, f_valid_test, max_rank, weight, dayround8, score, grid_top);
+    update_score(425, 1062, f_valid_test, max_rank, weight, dayround8, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "dayround8 done" << endl;
+    cout << "dayround8 done" << endl;
 
-    // generate_grid(438, 1095, f_valid_train, dayroundhalfday, grid, prep_xy);
+    generate_grid(438, 1095, f_valid_train, dayroundhalfday, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(438, 1095, f_valid_test, max_rank, weight, dayroundhalfday, score, grid_top);
+    update_score(438, 1095, f_valid_test, max_rank, weight, dayroundhalfday, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "dayroundhalfday done" << endl;
+    cout << "dayroundhalfday done" << endl;
 
-    // generate_grid(90, 223, f_valid_train, weekround0, grid, prep_xy);
+    generate_grid(90, 223, f_valid_train, weekround0, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(90, 223, f_valid_test, max_rank, weight, weekround0, score, grid_top);
+    update_score(90, 223, f_valid_test, max_rank, weight, weekround0, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "weekround0 done" << endl; 
+    cout << "weekround0 done" << endl; 
 
-    // generate_grid(133, 336, f_valid_train, weekround, grid, prep_xy);
+    generate_grid(133, 336, f_valid_train, weekround, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(133, 336, f_valid_test, max_rank, weight, weekround, score, grid_top);
+    update_score(133, 336, f_valid_test, max_rank, weight, weekround, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "weekround done" << endl; 
+    cout << "weekround done" << endl; 
 
-    // generate_grid(168, 419, f_valid_train, weekround1, grid, prep_xy);
+    generate_grid(168, 419, f_valid_train, weekround1, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(168, 419, f_valid_test, max_rank, weight, weekround1, score, grid_top);
+    update_score(168, 419, f_valid_test, max_rank, weight, weekround1, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "weekround1 done" << endl; 
+    cout << "weekround1 done" << endl; 
 
-    // generate_grid(178, 447, f_valid_train, weekround2, grid, prep_xy);
+    generate_grid(178, 447, f_valid_train, weekround2, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(178, 447, f_valid_test, max_rank, weight, weekround2, score, grid_top);
+    update_score(178, 447, f_valid_test, max_rank, weight, weekround2, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "weekround2 done" << endl;
+    cout << "weekround2 done" << endl;
 
-    // generate_grid(223, 560, f_valid_train, weekround4, grid, prep_xy);
+    generate_grid(223, 560, f_valid_train, weekround4, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(223, 560, f_valid_test, max_rank, weight, weekround4, score, grid_top);
+    update_score(223, 560, f_valid_test, max_rank, weight, weekround4, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "weekround4 done" << endl;
+    cout << "weekround4 done" << endl;
 
-    // generate_grid(201, 503, f_valid_train, weekquaterday, grid, prep_xy);
+    generate_grid(201, 503, f_valid_train, weekquaterday, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(201, 503, f_valid_test, max_rank, weight, weekquaterday, score, grid_top);
+    update_score(201, 503, f_valid_test, max_rank, weight, weekquaterday, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "weekquaterday done" << endl;
+    cout << "weekquaterday done" << endl;
 
-    // generate_grid(268, 671, f_valid_train, weekhalfday, grid, prep_xy);
+    generate_grid(268, 671, f_valid_train, weekhalfday, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(268, 671, f_valid_test, max_rank, weight, weekhalfday, score, grid_top);
+    update_score(268, 671, f_valid_test, max_rank, weight, weekhalfday, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "weekhalfday done" << endl;    
+    cout << "weekhalfday done" << endl;    
 
-    // generate_grid(403, 1006, f_valid_train, weekday, grid, prep_xy);
+    generate_grid(403, 1006, f_valid_train, weekday, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(403, 1006, f_valid_test, max_rank, weight, weekday, score, grid_top);
+    update_score(403, 1006, f_valid_test, max_rank, weight, weekday, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "weekday done" << endl; 
+    cout << "weekday done" << endl; 
 
-    // generate_grid(448, 1119, f_valid_train, nulltime, grid, prep_xy);
+    generate_grid(448, 1119, f_valid_train, nulltime, grid, prep_xy);
 
-    // generate_top(max_rank, grid_top, grid);
+    generate_top(max_rank, grid_top, grid);
 
-    // update_score(448, 1119, f_valid_test, max_rank, weight, nulltime, score, grid_top);
+    update_score(448, 1119, f_valid_test, max_rank, weight, nulltime, score, grid_top);
 
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
+    mapk_score = validate_apk(f_valid_test, max_sub, score);
 
-    // cout << mapk_score << endl;
+    cout << mapk_score << endl;
 
-    // cout << "nulltime done" << endl; 
+    cout << "nulltime done" << endl; 
 
 
-    // generate_valid_score(f_valid_score, 20, score);
+    generate_valid_score(f_valid_score, 20, score);
 
-    // cout << "validation sub generated" << endl;
+    cout << "validation sub generated" << endl;
 
     cout << float( clock () - begin_time ) /  CLOCKS_PER_SEC << endl;
 
@@ -2461,30 +2455,6 @@ void run_validation_ratio(){
 
     cout << "itime done" << endl;
 
-    // generate_grid(500, 1000, f_valid_train, itime, grid, prep_xy_xshift);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(500, 1000, f_valid_test, max_rank, 2 * weight, itime, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "itime xshift done" << endl;
-
-    // generate_grid(500, 1000, f_valid_train, itime, grid, prep_xy_yshift);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(500, 1000, f_valid_test, max_rank, 2 * weight, itime, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "itime yshift done" << endl;
-
     generate_grid(500, 1000, f_valid_train, itime, grid, prep_xy_xyshift);
 
     generate_top_ratio(max_rank, grid_top_ratio, grid);
@@ -2509,30 +2479,6 @@ void run_validation_ratio(){
 
     cout << "dayround0 done" << endl;
 
-    // generate_grid(151, 299, f_valid_train, dayround0, grid, prep_xy_xshift);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(151, 299, f_valid_test, max_rank, weight, dayround0, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "dayround0 xshift done" << endl;
-
-    // generate_grid(151, 299, f_valid_train, dayround0, grid, prep_xy_yshift);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(151, 299, f_valid_test, max_rank, weight, dayround0, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "dayround0 yshift done" << endl;
-
     generate_grid(151, 299, f_valid_train, dayround0, grid, prep_xy_xyshift);
 
     generate_top_ratio(max_rank, grid_top_ratio, grid);
@@ -2544,118 +2490,6 @@ void run_validation_ratio(){
     cout << mapk_score << endl;
 
     cout << "dayround0 xyshift done" << endl;
-
-    // generate_grid(250, 500, f_valid_train, dayround, grid);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(250, 500, f_valid_test, max_rank, weight, dayround, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "dayround done" << endl;
-
-    // generate_grid(400, 800, f_valid_train, dayround2, grid);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(400, 800, f_valid_test, max_rank, weight, dayround2, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "dayround2 done" << endl;
-
-    // generate_grid(100, 200, f_valid_train, weekround0, grid);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(100, 200, f_valid_test, max_rank, weight, weekround0, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "weekround0 done" << endl; 
-
-    // generate_grid(150, 300, f_valid_train, weekround, grid);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(150, 300, f_valid_test, max_rank, weight, weekround, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "weekround done" << endl; 
-
-    // generate_grid(200, 400, f_valid_train, weekround2, grid);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(200, 400, f_valid_test, max_rank, weight, weekround2, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "weekround2 done" << endl;
-
-    // generate_grid(250, 500, f_valid_train, weekquaterday, grid);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(250, 500, f_valid_test, max_rank, weight, weekquaterday, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "weekquaterday done" << endl;
-
-    // generate_grid(300, 600, f_valid_train, weekhalfday, grid);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(300, 600, f_valid_test, max_rank, weight, weekhalfday, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "weekhalfday done" << endl;    
-
-    // generate_grid(450, 900, f_valid_train, weekday, grid);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(450, 900, f_valid_test, max_rank, weight, weekday, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "weekday done" << endl; 
-
-    // generate_grid(500, 1000, f_valid_train, nulltime, grid);
-
-    // generate_top_ratio(max_rank, grid_top_ratio, grid);
-
-    // update_score_ratio(500, 1000, f_valid_test, max_rank, weight, nulltime, score, grid_top_ratio);
-
-    // mapk_score = validate_apk(f_valid_test, max_sub, score);
-
-    // cout << mapk_score << endl;
-
-    // cout << "nulltimedone" << endl; 
-
-    // generate_valid_score(f_valid_score, 20, score);
-
-    // cout << "validation sub generated" << endl;
 
     cout << float( clock () - begin_time ) /  CLOCKS_PER_SEC << endl;
 
@@ -2670,332 +2504,323 @@ void reorder_validation(){
     double mapk_score = 0, weight = 1;
     unsigned int limit = 50;
 
-    // ifstream f_valid_train("../valid/valid_train.csv");
-    // ifstream f_valid_test("../valid/valid_test.csv");
-
-    // ifstream f_valid_score_71("../valid/valid_score_71_20160518180135.csv");
-    // ifstream f_valid_score_100("../valid/valid_score_20160518025233.csv");
-    // ifstream f_valid_score_100xs("../valid/valid_score_100xs_test.csv");
-    // ifstream f_valid_score_100ys("../valid/valid_score_100ys_20160519162412.csv");
-    // ifstream f_valid_score_100xys("../valid/valid_score_100xys_20160519162933.csv");
-
     /* reorder row_id */
-    // ifstream f_valid_score_100("../valid/valid_score_100_20160605000504.csv");
-    // ifstream f_valid_score_100xs("../valid/valid_score_100xs_20160606172637.csv");
-    // ifstream f_valid_score_100ys("../valid/valid_score_100ys_20160606172711.csv");
-    // ifstream f_valid_score_100xys("../valid/valid_score_100xys_20160607130744.csv");
+    ifstream f_valid_score_100("../valid/valid_score_100_20160605000504.csv");
+    ifstream f_valid_score_100xs("../valid/valid_score_100xs_20160606172637.csv");
+    ifstream f_valid_score_100ys("../valid/valid_score_100ys_20160606172711.csv");
+    ifstream f_valid_score_100xys("../valid/valid_score_100xys_20160607130744.csv");
 
-    // ofstream f_valid_score_100_reorder("../valid/reorder_valid_score_100_20160605000504.csv");
-    // ofstream f_valid_score_100xs_reorder("../valid/reorder_valid_score_100xs_20160606172637.csv");
-    // ofstream f_valid_score_100ys_reorder("../valid/reorder_valid_score_100ys_20160606172711.csv");
-    // ofstream f_valid_score_100xys_reorder("../valid/reorder_valid_score_100xys_20160607130744.csv");
+    ofstream f_valid_score_100_reorder("../valid/reorder_valid_score_100_20160605000504.csv");
+    ofstream f_valid_score_100xs_reorder("../valid/reorder_valid_score_100xs_20160606172637.csv");
+    ofstream f_valid_score_100ys_reorder("../valid/reorder_valid_score_100ys_20160606172711.csv");
+    ofstream f_valid_score_100xys_reorder("../valid/reorder_valid_score_100xys_20160607130744.csv");
 
-    // reorder_score(f_valid_score_100, f_valid_score_100_reorder);
-    // reorder_score(f_valid_score_100xs, f_valid_score_100xs_reorder);
-    // reorder_score(f_valid_score_100ys, f_valid_score_100ys_reorder);
-    // reorder_score(f_valid_score_100xys, f_valid_score_100xys_reorder);
+    reorder_score(f_valid_score_100, f_valid_score_100_reorder);
+    reorder_score(f_valid_score_100xs, f_valid_score_100xs_reorder);
+    reorder_score(f_valid_score_100ys, f_valid_score_100ys_reorder);
+    reorder_score(f_valid_score_100xys, f_valid_score_100xys_reorder);
 
-    // f_valid_score_100.close();
-    // f_valid_score_100xs.close();
-    // f_valid_score_100ys.close();
-    // f_valid_score_100xys.close();
-    // f_valid_score_100_reorder.close();
-    // f_valid_score_100xs_reorder.close();
-    // f_valid_score_100ys_reorder.close();
-    // f_valid_score_100xys_reorder.close();
+    f_valid_score_100.close();
+    f_valid_score_100xs.close();
+    f_valid_score_100ys.close();
+    f_valid_score_100xys.close();
+    f_valid_score_100_reorder.close();
+    f_valid_score_100xs_reorder.close();
+    f_valid_score_100ys_reorder.close();
+    f_valid_score_100xys_reorder.close();
 
-    // ifstream f_valid_score_71("../valid/valid_score_71_20160605004036.csv");
-    // ifstream f_valid_score_71xs("../valid/valid_score_71xs_20160607234123.csv");
-    // ifstream f_valid_score_71ys("../valid/valid_score_71ys_20160607234206.csv");
-    // ifstream f_valid_score_71xys("../valid/valid_score_71xys_20160607234405.csv");
+    ifstream f_valid_score_71("../valid/valid_score_71_20160605004036.csv");
+    ifstream f_valid_score_71xs("../valid/valid_score_71xs_20160607234123.csv");
+    ifstream f_valid_score_71ys("../valid/valid_score_71ys_20160607234206.csv");
+    ifstream f_valid_score_71xys("../valid/valid_score_71xys_20160607234405.csv");
 
-    // ofstream f_valid_score_71_reorder("../valid/reorder_valid_score_71_20160605004036.csv");
-    // ofstream f_valid_score_71xs_reorder("../valid/reorder_valid_score_71xs_20160607234123.csv");
-    // ofstream f_valid_score_71ys_reorder("../valid/reorder_valid_score_71ys_20160607234206.csv");
-    // ofstream f_valid_score_71xys_reorder("../valid/reorder_valid_score_71xys_20160607234405.csv");
+    ofstream f_valid_score_71_reorder("../valid/reorder_valid_score_71_20160605004036.csv");
+    ofstream f_valid_score_71xs_reorder("../valid/reorder_valid_score_71xs_20160607234123.csv");
+    ofstream f_valid_score_71ys_reorder("../valid/reorder_valid_score_71ys_20160607234206.csv");
+    ofstream f_valid_score_71xys_reorder("../valid/reorder_valid_score_71xys_20160607234405.csv");
 
-    // reorder_score(f_valid_score_71, f_valid_score_71_reorder);
-    // reorder_score(f_valid_score_71xs, f_valid_score_71xs_reorder);
-    // reorder_score(f_valid_score_71ys, f_valid_score_71ys_reorder);
-    // reorder_score(f_valid_score_71xys, f_valid_score_71xys_reorder);
+    reorder_score(f_valid_score_71, f_valid_score_71_reorder);
+    reorder_score(f_valid_score_71xs, f_valid_score_71xs_reorder);
+    reorder_score(f_valid_score_71ys, f_valid_score_71ys_reorder);
+    reorder_score(f_valid_score_71xys, f_valid_score_71xys_reorder);
 
-    // f_valid_score_71.close();
-    // f_valid_score_71xs.close();
-    // f_valid_score_71ys.close();
-    // f_valid_score_71xys.close();
-    // f_valid_score_71_reorder.close();
-    // f_valid_score_71xs_reorder.close();
-    // f_valid_score_71ys_reorder.close();
-    // f_valid_score_71xys_reorder.close();
+    f_valid_score_71.close();
+    f_valid_score_71xs.close();
+    f_valid_score_71ys.close();
+    f_valid_score_71xys.close();
+    f_valid_score_71_reorder.close();
+    f_valid_score_71xs_reorder.close();
+    f_valid_score_71ys_reorder.close();
+    f_valid_score_71xys_reorder.close();
 
-    // ifstream f_valid_score_90("../valid/valid_score_90_20160608142409.csv");
-    // ifstream f_valid_score_90xs("../valid/valid_score_90xs_20160608143143.csv");
-    // ifstream f_valid_score_90ys("../valid/valid_score_90ys_20160609202512.csv");
-    // ifstream f_valid_score_90xys("../valid/valid_score_90xys_20160609202658.csv");
+    ifstream f_valid_score_90("../valid/valid_score_90_20160608142409.csv");
+    ifstream f_valid_score_90xs("../valid/valid_score_90xs_20160608143143.csv");
+    ifstream f_valid_score_90ys("../valid/valid_score_90ys_20160609202512.csv");
+    ifstream f_valid_score_90xys("../valid/valid_score_90xys_20160609202658.csv");
 
-    // ofstream f_valid_score_90_reorder("../valid/reorder_valid_score_90_20160608142409.csv");
-    // ofstream f_valid_score_90xs_reorder("../valid/reorder_valid_score_90xs_20160608143143.csv");
-    // ofstream f_valid_score_90ys_reorder("../valid/reorder_valid_score_90ys_20160609202512.csv");
-    // ofstream f_valid_score_90xys_reorder("../valid/reorder_valid_score_90xys_20160609202658.csv");
+    ofstream f_valid_score_90_reorder("../valid/reorder_valid_score_90_20160608142409.csv");
+    ofstream f_valid_score_90xs_reorder("../valid/reorder_valid_score_90xs_20160608143143.csv");
+    ofstream f_valid_score_90ys_reorder("../valid/reorder_valid_score_90ys_20160609202512.csv");
+    ofstream f_valid_score_90xys_reorder("../valid/reorder_valid_score_90xys_20160609202658.csv");
 
-    // reorder_score(f_valid_score_90, f_valid_score_90_reorder);
-    // reorder_score(f_valid_score_90xs, f_valid_score_90xs_reorder);
-    // reorder_score(f_valid_score_90ys, f_valid_score_90ys_reorder);
-    // reorder_score(f_valid_score_90xys, f_valid_score_90xys_reorder);
+    reorder_score(f_valid_score_90, f_valid_score_90_reorder);
+    reorder_score(f_valid_score_90xs, f_valid_score_90xs_reorder);
+    reorder_score(f_valid_score_90ys, f_valid_score_90ys_reorder);
+    reorder_score(f_valid_score_90xys, f_valid_score_90xys_reorder);
 
-    // f_valid_score_90.close();
-    // f_valid_score_90xs.close();
-    // f_valid_score_90ys.close();
-    // f_valid_score_90xys.close();
-    // f_valid_score_90_reorder.close();
-    // f_valid_score_90xs_reorder.close();
-    // f_valid_score_90ys_reorder.close();
-    // f_valid_score_90xys_reorder.close();
+    f_valid_score_90.close();
+    f_valid_score_90xs.close();
+    f_valid_score_90ys.close();
+    f_valid_score_90xys.close();
+    f_valid_score_90_reorder.close();
+    f_valid_score_90xs_reorder.close();
+    f_valid_score_90ys_reorder.close();
+    f_valid_score_90xys_reorder.close();
 
-    // ifstream f_valid_score_63("../valid/valid_score_63_20160610165455.csv");
-    // ifstream f_valid_score_63xs("../valid/valid_score_63xs_20160610165529.csv");
-    // ifstream f_valid_score_63ys("../valid/valid_score_63ys_20160610165711.csv");
-    // ifstream f_valid_score_63xys("../valid/valid_score_63xys_20160610171448.csv");
+    ifstream f_valid_score_63("../valid/valid_score_63_20160610165455.csv");
+    ifstream f_valid_score_63xs("../valid/valid_score_63xs_20160610165529.csv");
+    ifstream f_valid_score_63ys("../valid/valid_score_63ys_20160610165711.csv");
+    ifstream f_valid_score_63xys("../valid/valid_score_63xys_20160610171448.csv");
 
-    // ofstream f_valid_score_63_reorder("../valid/reorder_valid_score_63_20160610165455.csv");
-    // ofstream f_valid_score_63xs_reorder("../valid/reorder_valid_score_63xs_20160610165529.csv");
-    // ofstream f_valid_score_63ys_reorder("../valid/reorder_valid_score_63ys_20160610165711.csv");
-    // ofstream f_valid_score_63xys_reorder("../valid/reorder_valid_score_63xys_20160610171448.csv");
+    ofstream f_valid_score_63_reorder("../valid/reorder_valid_score_63_20160610165455.csv");
+    ofstream f_valid_score_63xs_reorder("../valid/reorder_valid_score_63xs_20160610165529.csv");
+    ofstream f_valid_score_63ys_reorder("../valid/reorder_valid_score_63ys_20160610165711.csv");
+    ofstream f_valid_score_63xys_reorder("../valid/reorder_valid_score_63xys_20160610171448.csv");
 
-    // reorder_score(f_valid_score_63, f_valid_score_63_reorder);
-    // reorder_score(f_valid_score_63xs, f_valid_score_63xs_reorder);
-    // reorder_score(f_valid_score_63ys, f_valid_score_63ys_reorder);
-    // reorder_score(f_valid_score_63xys, f_valid_score_63xys_reorder);
+    reorder_score(f_valid_score_63, f_valid_score_63_reorder);
+    reorder_score(f_valid_score_63xs, f_valid_score_63xs_reorder);
+    reorder_score(f_valid_score_63ys, f_valid_score_63ys_reorder);
+    reorder_score(f_valid_score_63xys, f_valid_score_63xys_reorder);
 
-    // f_valid_score_63.close();
-    // f_valid_score_63xs.close();
-    // f_valid_score_63ys.close();
-    // f_valid_score_63xys.close();
-    // f_valid_score_63_reorder.close();
-    // f_valid_score_63xs_reorder.close();
-    // f_valid_score_63ys_reorder.close();
-    // f_valid_score_63xys_reorder.close();
+    f_valid_score_63.close();
+    f_valid_score_63xs.close();
+    f_valid_score_63ys.close();
+    f_valid_score_63xys.close();
+    f_valid_score_63_reorder.close();
+    f_valid_score_63xs_reorder.close();
+    f_valid_score_63ys_reorder.close();
+    f_valid_score_63xys_reorder.close();
 
-    // ifstream f_valid_score_83("../valid/valid_score_83_20160621012105.csv");
-    // ifstream f_valid_score_83xs("../valid/valid_score_83xs_20160621012258.csv");
-    // ifstream f_valid_score_83ys("../valid/valid_score_83ys_20160621012335.csv");
-    // ifstream f_valid_score_83xys("../valid/valid_score_83xys_20160621012424.csv");
+    ifstream f_valid_score_83("../valid/valid_score_83_20160621012105.csv");
+    ifstream f_valid_score_83xs("../valid/valid_score_83xs_20160621012258.csv");
+    ifstream f_valid_score_83ys("../valid/valid_score_83ys_20160621012335.csv");
+    ifstream f_valid_score_83xys("../valid/valid_score_83xys_20160621012424.csv");
 
-    // ofstream f_valid_score_83_reorder("../valid/reorder_valid_score_83_20160621012105.csv");
-    // ofstream f_valid_score_83xs_reorder("../valid/reorder_valid_score_83xs_20160621012258.csv");
-    // ofstream f_valid_score_83ys_reorder("../valid/reorder_valid_score_83ys_20160621012335.csv");
-    // ofstream f_valid_score_83xys_reorder("../valid/reorder_valid_score_83xys_20160621012424.csv");
+    ofstream f_valid_score_83_reorder("../valid/reorder_valid_score_83_20160621012105.csv");
+    ofstream f_valid_score_83xs_reorder("../valid/reorder_valid_score_83xs_20160621012258.csv");
+    ofstream f_valid_score_83ys_reorder("../valid/reorder_valid_score_83ys_20160621012335.csv");
+    ofstream f_valid_score_83xys_reorder("../valid/reorder_valid_score_83xys_20160621012424.csv");
 
-    // reorder_score(f_valid_score_83, f_valid_score_83_reorder);
-    // reorder_score(f_valid_score_83xs, f_valid_score_83xs_reorder);
-    // reorder_score(f_valid_score_83ys, f_valid_score_83ys_reorder);
-    // reorder_score(f_valid_score_83xys, f_valid_score_83xys_reorder);
+    reorder_score(f_valid_score_83, f_valid_score_83_reorder);
+    reorder_score(f_valid_score_83xs, f_valid_score_83xs_reorder);
+    reorder_score(f_valid_score_83ys, f_valid_score_83ys_reorder);
+    reorder_score(f_valid_score_83xys, f_valid_score_83xys_reorder);
 
-    // f_valid_score_83.close();
-    // f_valid_score_83xs.close();
-    // f_valid_score_83ys.close();
-    // f_valid_score_83xys.close();
-    // f_valid_score_83_reorder.close();
-    // f_valid_score_83xs_reorder.close();
-    // f_valid_score_83ys_reorder.close();
-    // f_valid_score_83xys_reorder.close();
-
-
-    // ifstream f_valid_score_xgb_new2_100("../valid/valid_score_xgb_new2_100_20160622121911.csv");
-    // ifstream f_valid_score_xgb_new2_100xs("../valid/valid_score_xgb_new2_100xs_20160623205834.csv");
-    // ifstream f_valid_score_xgb_new2_100ys("../valid/valid_score_xgb_new2_100ys_20160623205919.csv");
-    // ifstream f_valid_score_xgb_new2_100xys("../valid/valid_score_xgb_new2_100xys_20160623210050.csv");
-
-    // ofstream f_valid_score_xgb_new2_100_reorder("../valid/reorder_valid_score_xgb_new2_100_20160622121911.csv");
-    // ofstream f_valid_score_xgb_new2_100xs_reorder("../valid/reorder_valid_score_xgb_new2_100xs_20160623205834.csv");
-    // ofstream f_valid_score_xgb_new2_100ys_reorder("../valid/reorder_valid_score_xgb_new2_100ys_20160623205919.csv");
-    // ofstream f_valid_score_xgb_new2_100xys_reorder("../valid/reorder_valid_score_xgb_new2_100xys_20160623210050.csv");
-
-    // reorder_score(f_valid_score_xgb_new2_100, f_valid_score_xgb_new2_100_reorder);
-    // reorder_score(f_valid_score_xgb_new2_100xs, f_valid_score_xgb_new2_100xs_reorder);
-    // reorder_score(f_valid_score_xgb_new2_100ys, f_valid_score_xgb_new2_100ys_reorder);
-    // reorder_score(f_valid_score_xgb_new2_100xys, f_valid_score_xgb_new2_100xys_reorder);
-
-    // f_valid_score_xgb_new2_100.close();
-    // f_valid_score_xgb_new2_100xs.close();
-    // f_valid_score_xgb_new2_100ys.close();
-    // f_valid_score_xgb_new2_100xys.close();
-    // f_valid_score_xgb_new2_100_reorder.close();
-    // f_valid_score_xgb_new2_100xs_reorder.close();
-    // f_valid_score_xgb_new2_100ys_reorder.close();
-    // f_valid_score_xgb_new2_100xys_reorder.close();
+    f_valid_score_83.close();
+    f_valid_score_83xs.close();
+    f_valid_score_83ys.close();
+    f_valid_score_83xys.close();
+    f_valid_score_83_reorder.close();
+    f_valid_score_83xs_reorder.close();
+    f_valid_score_83ys_reorder.close();
+    f_valid_score_83xys_reorder.close();
 
 
-    // ifstream f_valid_score_xgb_new2_71("../valid/valid_score_xgb_new2_71_20160627122639.csv");
-    // ifstream f_valid_score_xgb_new2_71xs("../valid/valid_score_xgb_new2_71xs_20160627122713.csv");
-    // ifstream f_valid_score_xgb_new2_71ys("../valid/valid_score_xgb_new2_71ys_20160627122814.csv");
-    // ifstream f_valid_score_xgb_new2_71xys("../valid/valid_score_xgb_new2_71xys_20160627122942.csv");
+    ifstream f_valid_score_xgb_new2_100("../valid/valid_score_xgb_new2_100_20160622121911.csv");
+    ifstream f_valid_score_xgb_new2_100xs("../valid/valid_score_xgb_new2_100xs_20160623205834.csv");
+    ifstream f_valid_score_xgb_new2_100ys("../valid/valid_score_xgb_new2_100ys_20160623205919.csv");
+    ifstream f_valid_score_xgb_new2_100xys("../valid/valid_score_xgb_new2_100xys_20160623210050.csv");
 
-    // ofstream f_valid_score_xgb_new2_71_reorder("../valid/reorder_valid_score_xgb_new2_71_20160627122639.csv");
-    // ofstream f_valid_score_xgb_new2_71xs_reorder("../valid/reorder_valid_score_xgb_new2_71xs_20160627122713.csv");
-    // ofstream f_valid_score_xgb_new2_71ys_reorder("../valid/reorder_valid_score_xgb_new2_71ys_20160627122814.csv");
-    // ofstream f_valid_score_xgb_new2_71xys_reorder("../valid/reorder_valid_score_xgb_new2_71xys_20160627122942.csv");
+    ofstream f_valid_score_xgb_new2_100_reorder("../valid/reorder_valid_score_xgb_new2_100_20160622121911.csv");
+    ofstream f_valid_score_xgb_new2_100xs_reorder("../valid/reorder_valid_score_xgb_new2_100xs_20160623205834.csv");
+    ofstream f_valid_score_xgb_new2_100ys_reorder("../valid/reorder_valid_score_xgb_new2_100ys_20160623205919.csv");
+    ofstream f_valid_score_xgb_new2_100xys_reorder("../valid/reorder_valid_score_xgb_new2_100xys_20160623210050.csv");
 
-    // reorder_score(f_valid_score_xgb_new2_71, f_valid_score_xgb_new2_71_reorder);
-    // reorder_score(f_valid_score_xgb_new2_71xs, f_valid_score_xgb_new2_71xs_reorder);
-    // reorder_score(f_valid_score_xgb_new2_71ys, f_valid_score_xgb_new2_71ys_reorder);
-    // reorder_score(f_valid_score_xgb_new2_71xys, f_valid_score_xgb_new2_71xys_reorder);
+    reorder_score(f_valid_score_xgb_new2_100, f_valid_score_xgb_new2_100_reorder);
+    reorder_score(f_valid_score_xgb_new2_100xs, f_valid_score_xgb_new2_100xs_reorder);
+    reorder_score(f_valid_score_xgb_new2_100ys, f_valid_score_xgb_new2_100ys_reorder);
+    reorder_score(f_valid_score_xgb_new2_100xys, f_valid_score_xgb_new2_100xys_reorder);
 
-    // f_valid_score_xgb_new2_71.close();
-    // f_valid_score_xgb_new2_71xs.close();
-    // f_valid_score_xgb_new2_71ys.close();
-    // f_valid_score_xgb_new2_71xys.close();
-    // f_valid_score_xgb_new2_71_reorder.close();
-    // f_valid_score_xgb_new2_71xs_reorder.close();
-    // f_valid_score_xgb_new2_71ys_reorder.close();
-    // f_valid_score_xgb_new2_71xys_reorder.close();
-
-
-    // ifstream f_valid_score_xgb_new2_90("../valid/valid_score_xgb_new2_90_20160623210124.csv");
-    // ifstream f_valid_score_xgb_new2_90xs("../valid/valid_score_xgb_new2_90xs_20160624102803.csv");
-    // ifstream f_valid_score_xgb_new2_90ys("../valid/valid_score_xgb_new2_90ys_20160623210225.csv");
-    // ifstream f_valid_score_xgb_new2_90xys("../valid/valid_score_xgb_new2_90xys_20160623210250.csv");
-
-    // ofstream f_valid_score_xgb_new2_90_reorder("../valid/reorder_valid_score_xgb_new2_90_20160623210124.csv");
-    // ofstream f_valid_score_xgb_new2_90xs_reorder("../valid/reorder_valid_score_xgb_new2_90xs_20160624102803.csv");
-    // ofstream f_valid_score_xgb_new2_90ys_reorder("../valid/reorder_valid_score_xgb_new2_90ys_20160623210225.csv");
-    // ofstream f_valid_score_xgb_new2_90xys_reorder("../valid/reorder_valid_score_xgb_new2_90xys_20160623210250.csv");
-
-    // reorder_score(f_valid_score_xgb_new2_90, f_valid_score_xgb_new2_90_reorder);
-    // reorder_score(f_valid_score_xgb_new2_90xs, f_valid_score_xgb_new2_90xs_reorder);
-    // reorder_score(f_valid_score_xgb_new2_90ys, f_valid_score_xgb_new2_90ys_reorder);
-    // reorder_score(f_valid_score_xgb_new2_90xys, f_valid_score_xgb_new2_90xys_reorder);
-
-    // f_valid_score_xgb_new2_90.close();
-    // f_valid_score_xgb_new2_90xs.close();
-    // f_valid_score_xgb_new2_90ys.close();
-    // f_valid_score_xgb_new2_90xys.close();
-    // f_valid_score_xgb_new2_90_reorder.close();
-    // f_valid_score_xgb_new2_90xs_reorder.close();
-    // f_valid_score_xgb_new2_90ys_reorder.close();
-    // f_valid_score_xgb_new2_90xys_reorder.close();
+    f_valid_score_xgb_new2_100.close();
+    f_valid_score_xgb_new2_100xs.close();
+    f_valid_score_xgb_new2_100ys.close();
+    f_valid_score_xgb_new2_100xys.close();
+    f_valid_score_xgb_new2_100_reorder.close();
+    f_valid_score_xgb_new2_100xs_reorder.close();
+    f_valid_score_xgb_new2_100ys_reorder.close();
+    f_valid_score_xgb_new2_100xys_reorder.close();
 
 
-    // ifstream f_valid_score_xgb_new2_63("../valid/valid_score_xgb_new2_63_20160627123102.csv");
-    // ifstream f_valid_score_xgb_new2_63xs("../valid/valid_score_xgb_new2_63xs_20160627123139.csv");
-    // ifstream f_valid_score_xgb_new2_63ys("../valid/valid_score_xgb_new2_63ys_20160627123204.csv");
-    // ifstream f_valid_score_xgb_new2_63xys("../valid/valid_score_xgb_new2_63xys_20160627123228.csv");
+    ifstream f_valid_score_xgb_new2_71("../valid/valid_score_xgb_new2_71_20160627122639.csv");
+    ifstream f_valid_score_xgb_new2_71xs("../valid/valid_score_xgb_new2_71xs_20160627122713.csv");
+    ifstream f_valid_score_xgb_new2_71ys("../valid/valid_score_xgb_new2_71ys_20160627122814.csv");
+    ifstream f_valid_score_xgb_new2_71xys("../valid/valid_score_xgb_new2_71xys_20160627122942.csv");
 
-    // ofstream f_valid_score_xgb_new2_63_reorder("../valid/reorder_valid_score_xgb_new2_63_20160627123102.csv");
-    // ofstream f_valid_score_xgb_new2_63xs_reorder("../valid/reorder_valid_score_xgb_new2_63xs_20160627123139.csv");
-    // ofstream f_valid_score_xgb_new2_63ys_reorder("../valid/reorder_valid_score_xgb_new2_63ys_20160627123204.csv");
-    // ofstream f_valid_score_xgb_new2_63xys_reorder("../valid/reorder_valid_score_xgb_new2_63xys_20160627123228.csv");
+    ofstream f_valid_score_xgb_new2_71_reorder("../valid/reorder_valid_score_xgb_new2_71_20160627122639.csv");
+    ofstream f_valid_score_xgb_new2_71xs_reorder("../valid/reorder_valid_score_xgb_new2_71xs_20160627122713.csv");
+    ofstream f_valid_score_xgb_new2_71ys_reorder("../valid/reorder_valid_score_xgb_new2_71ys_20160627122814.csv");
+    ofstream f_valid_score_xgb_new2_71xys_reorder("../valid/reorder_valid_score_xgb_new2_71xys_20160627122942.csv");
 
-    // reorder_score(f_valid_score_xgb_new2_63, f_valid_score_xgb_new2_63_reorder);
-    // reorder_score(f_valid_score_xgb_new2_63xs, f_valid_score_xgb_new2_63xs_reorder);
-    // reorder_score(f_valid_score_xgb_new2_63ys, f_valid_score_xgb_new2_63ys_reorder);
-    // reorder_score(f_valid_score_xgb_new2_63xys, f_valid_score_xgb_new2_63xys_reorder);
+    reorder_score(f_valid_score_xgb_new2_71, f_valid_score_xgb_new2_71_reorder);
+    reorder_score(f_valid_score_xgb_new2_71xs, f_valid_score_xgb_new2_71xs_reorder);
+    reorder_score(f_valid_score_xgb_new2_71ys, f_valid_score_xgb_new2_71ys_reorder);
+    reorder_score(f_valid_score_xgb_new2_71xys, f_valid_score_xgb_new2_71xys_reorder);
 
-    // f_valid_score_xgb_new2_63.close();
-    // f_valid_score_xgb_new2_63xs.close();
-    // f_valid_score_xgb_new2_63ys.close();
-    // f_valid_score_xgb_new2_63xys.close();
-    // f_valid_score_xgb_new2_63_reorder.close();
-    // f_valid_score_xgb_new2_63xs_reorder.close();
-    // f_valid_score_xgb_new2_63ys_reorder.close();
-    // f_valid_score_xgb_new2_63xys_reorder.close();
+    f_valid_score_xgb_new2_71.close();
+    f_valid_score_xgb_new2_71xs.close();
+    f_valid_score_xgb_new2_71ys.close();
+    f_valid_score_xgb_new2_71xys.close();
+    f_valid_score_xgb_new2_71_reorder.close();
+    f_valid_score_xgb_new2_71xs_reorder.close();
+    f_valid_score_xgb_new2_71ys_reorder.close();
+    f_valid_score_xgb_new2_71xys_reorder.close();
 
 
-    // ifstream f_valid_score_xgb_aug_nn_100("../valid/valid_score_xgb_100_20160702160701.csv");
-    // ifstream f_valid_score_xgb_aug_nn_100xs("../valid/valid_score_xgb_aug_nn_100xs_20160702161826.csv");
-    // ifstream f_valid_score_xgb_aug_nn_100ys("../valid/valid_score_xgb_aug_nn_100ys_20160702162024.csv");
-    // ifstream f_valid_score_xgb_aug_nn_100xys("../valid/valid_score_xgb_aug_nn_100xys_20160702162115.csv");
+    ifstream f_valid_score_xgb_new2_90("../valid/valid_score_xgb_new2_90_20160623210124.csv");
+    ifstream f_valid_score_xgb_new2_90xs("../valid/valid_score_xgb_new2_90xs_20160624102803.csv");
+    ifstream f_valid_score_xgb_new2_90ys("../valid/valid_score_xgb_new2_90ys_20160623210225.csv");
+    ifstream f_valid_score_xgb_new2_90xys("../valid/valid_score_xgb_new2_90xys_20160623210250.csv");
 
-    // ofstream f_valid_score_xgb_aug_nn_100_reorder("../valid/reorder_valid_score_xgb_100_20160702160701.csv");
-    // ofstream f_valid_score_xgb_aug_nn_100xs_reorder("../valid/reorder_valid_score_xgb_aug_nn_100xs_20160702161826.csv");
-    // ofstream f_valid_score_xgb_aug_nn_100ys_reorder("../valid/reorder_valid_score_xgb_aug_nn_100ys_20160702162024.csv");
-    // ofstream f_valid_score_xgb_aug_nn_100xys_reorder("../valid/reorder_valid_score_xgb_aug_nn_100xys_20160702162115.csv");    
+    ofstream f_valid_score_xgb_new2_90_reorder("../valid/reorder_valid_score_xgb_new2_90_20160623210124.csv");
+    ofstream f_valid_score_xgb_new2_90xs_reorder("../valid/reorder_valid_score_xgb_new2_90xs_20160624102803.csv");
+    ofstream f_valid_score_xgb_new2_90ys_reorder("../valid/reorder_valid_score_xgb_new2_90ys_20160623210225.csv");
+    ofstream f_valid_score_xgb_new2_90xys_reorder("../valid/reorder_valid_score_xgb_new2_90xys_20160623210250.csv");
 
-    // reorder_score(f_valid_score_xgb_aug_nn_100, f_valid_score_xgb_aug_nn_100_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_100xs, f_valid_score_xgb_aug_nn_100xs_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_100ys, f_valid_score_xgb_aug_nn_100ys_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_100xys, f_valid_score_xgb_aug_nn_100xys_reorder);
+    reorder_score(f_valid_score_xgb_new2_90, f_valid_score_xgb_new2_90_reorder);
+    reorder_score(f_valid_score_xgb_new2_90xs, f_valid_score_xgb_new2_90xs_reorder);
+    reorder_score(f_valid_score_xgb_new2_90ys, f_valid_score_xgb_new2_90ys_reorder);
+    reorder_score(f_valid_score_xgb_new2_90xys, f_valid_score_xgb_new2_90xys_reorder);
 
-    // f_valid_score_xgb_aug_nn_100.close();
-    // f_valid_score_xgb_aug_nn_100xs.close();
-    // f_valid_score_xgb_aug_nn_100ys.close();
-    // f_valid_score_xgb_aug_nn_100xys.close();
-    // f_valid_score_xgb_aug_nn_100_reorder.close();
-    // f_valid_score_xgb_aug_nn_100xs_reorder.close();
-    // f_valid_score_xgb_aug_nn_100ys_reorder.close();
-    // f_valid_score_xgb_aug_nn_100xys_reorder.close();
+    f_valid_score_xgb_new2_90.close();
+    f_valid_score_xgb_new2_90xs.close();
+    f_valid_score_xgb_new2_90ys.close();
+    f_valid_score_xgb_new2_90xys.close();
+    f_valid_score_xgb_new2_90_reorder.close();
+    f_valid_score_xgb_new2_90xs_reorder.close();
+    f_valid_score_xgb_new2_90ys_reorder.close();
+    f_valid_score_xgb_new2_90xys_reorder.close();
 
-    // ifstream f_valid_score_xgb_aug_nn_90("../valid/valid_score_xgb_aug_nn_90_20160703214350.csv");
-    // ifstream f_valid_score_xgb_aug_nn_90xs("../valid/valid_score_xgb_aug_nn_90xs_20160703214507.csv");
-    // ifstream f_valid_score_xgb_aug_nn_90ys("../valid/valid_score_xgb_aug_nn_90ys_20160703214623.csv");
-    // ifstream f_valid_score_xgb_aug_nn_90xys("../valid/valid_score_xgb_aug_nn_90xys_20160703214813.csv");
 
-    // ofstream f_valid_score_xgb_aug_nn_90_reorder("../valid/reorder_valid_score_xgb_aug_nn_90_20160703214350.csv");
-    // ofstream f_valid_score_xgb_aug_nn_90xs_reorder("../valid/reorder_valid_score_xgb_aug_nn_90xs_20160703214507.csv");
-    // ofstream f_valid_score_xgb_aug_nn_90ys_reorder("../valid/reorder_valid_score_xgb_aug_nn_90ys_20160703214623.csv");
-    // ofstream f_valid_score_xgb_aug_nn_90xys_reorder("../valid/reorder_valid_score_xgb_aug_nn_90xys_20160703214813.csv");    
+    ifstream f_valid_score_xgb_new2_63("../valid/valid_score_xgb_new2_63_20160627123102.csv");
+    ifstream f_valid_score_xgb_new2_63xs("../valid/valid_score_xgb_new2_63xs_20160627123139.csv");
+    ifstream f_valid_score_xgb_new2_63ys("../valid/valid_score_xgb_new2_63ys_20160627123204.csv");
+    ifstream f_valid_score_xgb_new2_63xys("../valid/valid_score_xgb_new2_63xys_20160627123228.csv");
 
-    // reorder_score(f_valid_score_xgb_aug_nn_90, f_valid_score_xgb_aug_nn_90_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_90xs, f_valid_score_xgb_aug_nn_90xs_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_90ys, f_valid_score_xgb_aug_nn_90ys_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_90xys, f_valid_score_xgb_aug_nn_90xys_reorder);
+    ofstream f_valid_score_xgb_new2_63_reorder("../valid/reorder_valid_score_xgb_new2_63_20160627123102.csv");
+    ofstream f_valid_score_xgb_new2_63xs_reorder("../valid/reorder_valid_score_xgb_new2_63xs_20160627123139.csv");
+    ofstream f_valid_score_xgb_new2_63ys_reorder("../valid/reorder_valid_score_xgb_new2_63ys_20160627123204.csv");
+    ofstream f_valid_score_xgb_new2_63xys_reorder("../valid/reorder_valid_score_xgb_new2_63xys_20160627123228.csv");
 
-    // f_valid_score_xgb_aug_nn_90.close();
-    // f_valid_score_xgb_aug_nn_90xs.close();
-    // f_valid_score_xgb_aug_nn_90ys.close();
-    // f_valid_score_xgb_aug_nn_90xys.close();
-    // f_valid_score_xgb_aug_nn_90_reorder.close();
-    // f_valid_score_xgb_aug_nn_90xs_reorder.close();
-    // f_valid_score_xgb_aug_nn_90ys_reorder.close();
-    // f_valid_score_xgb_aug_nn_90xys_reorder.close();
+    reorder_score(f_valid_score_xgb_new2_63, f_valid_score_xgb_new2_63_reorder);
+    reorder_score(f_valid_score_xgb_new2_63xs, f_valid_score_xgb_new2_63xs_reorder);
+    reorder_score(f_valid_score_xgb_new2_63ys, f_valid_score_xgb_new2_63ys_reorder);
+    reorder_score(f_valid_score_xgb_new2_63xys, f_valid_score_xgb_new2_63xys_reorder);
 
-    // ifstream f_valid_score_xgb_aug_nn_71("../valid/valid_score_xgb_aug_nn_71_20160702165843.csv");
-    // ifstream f_valid_score_xgb_aug_nn_71xs("../valid/valid_score_xgb_aug_nn_71xs_20160702165921.csv.cp");
-    // ifstream f_valid_score_xgb_aug_nn_71ys("../valid/valid_score_xgb_aug_nn_71ys_20160702170115.csv");
-    // ifstream f_valid_score_xgb_aug_nn_71xys("../valid/valid_score_xgb_aug_nn_71xys_20160702170420.csv");
+    f_valid_score_xgb_new2_63.close();
+    f_valid_score_xgb_new2_63xs.close();
+    f_valid_score_xgb_new2_63ys.close();
+    f_valid_score_xgb_new2_63xys.close();
+    f_valid_score_xgb_new2_63_reorder.close();
+    f_valid_score_xgb_new2_63xs_reorder.close();
+    f_valid_score_xgb_new2_63ys_reorder.close();
+    f_valid_score_xgb_new2_63xys_reorder.close();
 
-    // ofstream f_valid_score_xgb_aug_nn_71_reorder("../valid/reorder_valid_score_xgb_aug_nn_71_20160702165843.csv");
-    // ofstream f_valid_score_xgb_aug_nn_71xs_reorder("../valid/reorder_valid_score_xgb_aug_nn_71xs_20160702165921.csv");
-    // ofstream f_valid_score_xgb_aug_nn_71ys_reorder("../valid/reorder_valid_score_xgb_aug_nn_71ys_20160702170115.csv");
-    // ofstream f_valid_score_xgb_aug_nn_71xys_reorder("../valid/reorder_valid_score_xgb_aug_nn_71xys_20160702170420.csv");    
 
-    // reorder_score(f_valid_score_xgb_aug_nn_71, f_valid_score_xgb_aug_nn_71_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_71xs, f_valid_score_xgb_aug_nn_71xs_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_71ys, f_valid_score_xgb_aug_nn_71ys_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_71xys, f_valid_score_xgb_aug_nn_71xys_reorder);
+    ifstream f_valid_score_xgb_aug_nn_100("../valid/valid_score_xgb_100_20160702160701.csv");
+    ifstream f_valid_score_xgb_aug_nn_100xs("../valid/valid_score_xgb_aug_nn_100xs_20160702161826.csv");
+    ifstream f_valid_score_xgb_aug_nn_100ys("../valid/valid_score_xgb_aug_nn_100ys_20160702162024.csv");
+    ifstream f_valid_score_xgb_aug_nn_100xys("../valid/valid_score_xgb_aug_nn_100xys_20160702162115.csv");
 
-    // f_valid_score_xgb_aug_nn_71.close();
-    // f_valid_score_xgb_aug_nn_71xs.close();
-    // f_valid_score_xgb_aug_nn_71ys.close();
-    // f_valid_score_xgb_aug_nn_71xys.close();
-    // f_valid_score_xgb_aug_nn_71_reorder.close();
-    // f_valid_score_xgb_aug_nn_71xs_reorder.close();
-    // f_valid_score_xgb_aug_nn_71ys_reorder.close();
-    // f_valid_score_xgb_aug_nn_71xys_reorder.close();
+    ofstream f_valid_score_xgb_aug_nn_100_reorder("../valid/reorder_valid_score_xgb_100_20160702160701.csv");
+    ofstream f_valid_score_xgb_aug_nn_100xs_reorder("../valid/reorder_valid_score_xgb_aug_nn_100xs_20160702161826.csv");
+    ofstream f_valid_score_xgb_aug_nn_100ys_reorder("../valid/reorder_valid_score_xgb_aug_nn_100ys_20160702162024.csv");
+    ofstream f_valid_score_xgb_aug_nn_100xys_reorder("../valid/reorder_valid_score_xgb_aug_nn_100xys_20160702162115.csv");    
 
-    // ifstream f_valid_score_xgb_aug_nn_63("../valid/valid_score_xgb_aug_nn_63_20160702172227.csv");
-    // ifstream f_valid_score_xgb_aug_nn_63xs("../valid/valid_score_xgb_aug_nn_63xs_20160702172327.csv");
-    // ifstream f_valid_score_xgb_aug_nn_63ys("../valid/valid_score_xgb_aug_nn_63ys_20160702172433.csv");
-    // ifstream f_valid_score_xgb_aug_nn_63xys("../valid/valid_score_xgb_aug_nn_63xys_20160702172549.csv.cp");
+    reorder_score(f_valid_score_xgb_aug_nn_100, f_valid_score_xgb_aug_nn_100_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_100xs, f_valid_score_xgb_aug_nn_100xs_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_100ys, f_valid_score_xgb_aug_nn_100ys_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_100xys, f_valid_score_xgb_aug_nn_100xys_reorder);
 
-    // ofstream f_valid_score_xgb_aug_nn_63_reorder("../valid/reorder_valid_score_xgb_aug_nn_63_20160702172227.csv");
-    // ofstream f_valid_score_xgb_aug_nn_63xs_reorder("../valid/reorder_valid_score_xgb_aug_nn_63xs_20160702172327.csv");
-    // ofstream f_valid_score_xgb_aug_nn_63ys_reorder("../valid/reorder_valid_score_xgb_aug_nn_63ys_20160702172433.csv");
-    // ofstream f_valid_score_xgb_aug_nn_63xys_reorder("../valid/reorder_valid_score_xgb_aug_nn_63xys_20160702172549.csv");    
+    f_valid_score_xgb_aug_nn_100.close();
+    f_valid_score_xgb_aug_nn_100xs.close();
+    f_valid_score_xgb_aug_nn_100ys.close();
+    f_valid_score_xgb_aug_nn_100xys.close();
+    f_valid_score_xgb_aug_nn_100_reorder.close();
+    f_valid_score_xgb_aug_nn_100xs_reorder.close();
+    f_valid_score_xgb_aug_nn_100ys_reorder.close();
+    f_valid_score_xgb_aug_nn_100xys_reorder.close();
 
-    // reorder_score(f_valid_score_xgb_aug_nn_63, f_valid_score_xgb_aug_nn_63_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_63xs, f_valid_score_xgb_aug_nn_63xs_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_63ys, f_valid_score_xgb_aug_nn_63ys_reorder);
-    // reorder_score(f_valid_score_xgb_aug_nn_63xys, f_valid_score_xgb_aug_nn_63xys_reorder);
+    ifstream f_valid_score_xgb_aug_nn_90("../valid/valid_score_xgb_aug_nn_90_20160703214350.csv");
+    ifstream f_valid_score_xgb_aug_nn_90xs("../valid/valid_score_xgb_aug_nn_90xs_20160703214507.csv");
+    ifstream f_valid_score_xgb_aug_nn_90ys("../valid/valid_score_xgb_aug_nn_90ys_20160703214623.csv");
+    ifstream f_valid_score_xgb_aug_nn_90xys("../valid/valid_score_xgb_aug_nn_90xys_20160703214813.csv");
 
-    // f_valid_score_xgb_aug_nn_63.close();
-    // f_valid_score_xgb_aug_nn_63xs.close();
-    // f_valid_score_xgb_aug_nn_63ys.close();
-    // f_valid_score_xgb_aug_nn_63xys.close();
-    // f_valid_score_xgb_aug_nn_63_reorder.close();
-    // f_valid_score_xgb_aug_nn_63xs_reorder.close();
-    // f_valid_score_xgb_aug_nn_63ys_reorder.close();
-    // f_valid_score_xgb_aug_nn_63xys_reorder.close();
+    ofstream f_valid_score_xgb_aug_nn_90_reorder("../valid/reorder_valid_score_xgb_aug_nn_90_20160703214350.csv");
+    ofstream f_valid_score_xgb_aug_nn_90xs_reorder("../valid/reorder_valid_score_xgb_aug_nn_90xs_20160703214507.csv");
+    ofstream f_valid_score_xgb_aug_nn_90ys_reorder("../valid/reorder_valid_score_xgb_aug_nn_90ys_20160703214623.csv");
+    ofstream f_valid_score_xgb_aug_nn_90xys_reorder("../valid/reorder_valid_score_xgb_aug_nn_90xys_20160703214813.csv");    
+
+    reorder_score(f_valid_score_xgb_aug_nn_90, f_valid_score_xgb_aug_nn_90_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_90xs, f_valid_score_xgb_aug_nn_90xs_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_90ys, f_valid_score_xgb_aug_nn_90ys_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_90xys, f_valid_score_xgb_aug_nn_90xys_reorder);
+
+    f_valid_score_xgb_aug_nn_90.close();
+    f_valid_score_xgb_aug_nn_90xs.close();
+    f_valid_score_xgb_aug_nn_90ys.close();
+    f_valid_score_xgb_aug_nn_90xys.close();
+    f_valid_score_xgb_aug_nn_90_reorder.close();
+    f_valid_score_xgb_aug_nn_90xs_reorder.close();
+    f_valid_score_xgb_aug_nn_90ys_reorder.close();
+    f_valid_score_xgb_aug_nn_90xys_reorder.close();
+
+    ifstream f_valid_score_xgb_aug_nn_71("../valid/valid_score_xgb_aug_nn_71_20160702165843.csv");
+    ifstream f_valid_score_xgb_aug_nn_71xs("../valid/valid_score_xgb_aug_nn_71xs_20160702165921.csv.cp");
+    ifstream f_valid_score_xgb_aug_nn_71ys("../valid/valid_score_xgb_aug_nn_71ys_20160702170115.csv");
+    ifstream f_valid_score_xgb_aug_nn_71xys("../valid/valid_score_xgb_aug_nn_71xys_20160702170420.csv");
+
+    ofstream f_valid_score_xgb_aug_nn_71_reorder("../valid/reorder_valid_score_xgb_aug_nn_71_20160702165843.csv");
+    ofstream f_valid_score_xgb_aug_nn_71xs_reorder("../valid/reorder_valid_score_xgb_aug_nn_71xs_20160702165921.csv");
+    ofstream f_valid_score_xgb_aug_nn_71ys_reorder("../valid/reorder_valid_score_xgb_aug_nn_71ys_20160702170115.csv");
+    ofstream f_valid_score_xgb_aug_nn_71xys_reorder("../valid/reorder_valid_score_xgb_aug_nn_71xys_20160702170420.csv");    
+
+    reorder_score(f_valid_score_xgb_aug_nn_71, f_valid_score_xgb_aug_nn_71_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_71xs, f_valid_score_xgb_aug_nn_71xs_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_71ys, f_valid_score_xgb_aug_nn_71ys_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_71xys, f_valid_score_xgb_aug_nn_71xys_reorder);
+
+    f_valid_score_xgb_aug_nn_71.close();
+    f_valid_score_xgb_aug_nn_71xs.close();
+    f_valid_score_xgb_aug_nn_71ys.close();
+    f_valid_score_xgb_aug_nn_71xys.close();
+    f_valid_score_xgb_aug_nn_71_reorder.close();
+    f_valid_score_xgb_aug_nn_71xs_reorder.close();
+    f_valid_score_xgb_aug_nn_71ys_reorder.close();
+    f_valid_score_xgb_aug_nn_71xys_reorder.close();
+
+    ifstream f_valid_score_xgb_aug_nn_63("../valid/valid_score_xgb_aug_nn_63_20160702172227.csv");
+    ifstream f_valid_score_xgb_aug_nn_63xs("../valid/valid_score_xgb_aug_nn_63xs_20160702172327.csv");
+    ifstream f_valid_score_xgb_aug_nn_63ys("../valid/valid_score_xgb_aug_nn_63ys_20160702172433.csv");
+    ifstream f_valid_score_xgb_aug_nn_63xys("../valid/valid_score_xgb_aug_nn_63xys_20160702172549.csv.cp");
+
+    ofstream f_valid_score_xgb_aug_nn_63_reorder("../valid/reorder_valid_score_xgb_aug_nn_63_20160702172227.csv");
+    ofstream f_valid_score_xgb_aug_nn_63xs_reorder("../valid/reorder_valid_score_xgb_aug_nn_63xs_20160702172327.csv");
+    ofstream f_valid_score_xgb_aug_nn_63ys_reorder("../valid/reorder_valid_score_xgb_aug_nn_63ys_20160702172433.csv");
+    ofstream f_valid_score_xgb_aug_nn_63xys_reorder("../valid/reorder_valid_score_xgb_aug_nn_63xys_20160702172549.csv");    
+
+    reorder_score(f_valid_score_xgb_aug_nn_63, f_valid_score_xgb_aug_nn_63_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_63xs, f_valid_score_xgb_aug_nn_63xs_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_63ys, f_valid_score_xgb_aug_nn_63ys_reorder);
+    reorder_score(f_valid_score_xgb_aug_nn_63xys, f_valid_score_xgb_aug_nn_63xys_reorder);
+
+    f_valid_score_xgb_aug_nn_63.close();
+    f_valid_score_xgb_aug_nn_63xs.close();
+    f_valid_score_xgb_aug_nn_63ys.close();
+    f_valid_score_xgb_aug_nn_63xys.close();
+    f_valid_score_xgb_aug_nn_63_reorder.close();
+    f_valid_score_xgb_aug_nn_63xs_reorder.close();
+    f_valid_score_xgb_aug_nn_63ys_reorder.close();
+    f_valid_score_xgb_aug_nn_63xys_reorder.close();
 
     ifstream f_valid_score_knn_count_20("../valid/valid_score_knn_count_20_20160706045201.csv");
     ofstream f_valid_score_knn_count_20_reorder("../valid/reorder_valid_score_knn_count_20_20160706045201.csv");
@@ -3004,21 +2829,21 @@ void reorder_validation(){
     f_valid_score_knn_count_20.close();
     f_valid_score_knn_count_20_reorder.close();
 
-    // ifstream f_valid_score_knn_20("../valid/valid_score_knn_20_20160701024005.csv");
-    // ofstream f_valid_score_knn_20_reorder("../valid/reorder_valid_score_knn_20_20160701024005.csv");
+    ifstream f_valid_score_knn_20("../valid/valid_score_knn_20_20160701024005.csv");
+    ofstream f_valid_score_knn_20_reorder("../valid/reorder_valid_score_knn_20_20160701024005.csv");
 
-    // reorder_score(f_valid_score_knn_20, f_valid_score_knn_20_reorder);
+    reorder_score(f_valid_score_knn_20, f_valid_score_knn_20_reorder);
 
-    // f_valid_score_knn_20.close();
-    // f_valid_score_knn_20_reorder.close();
+    f_valid_score_knn_20.close();
+    f_valid_score_knn_20_reorder.close();
 
-    // ifstream f_valid_score_knn_new2_20("../valid/valid_score_knn_20_20160701170046.csv");
-    // ofstream f_valid_score_knn_new2_20_reorder("../valid/reorder_valid_score_knn_20_20160701170046.csv");
+    ifstream f_valid_score_knn_new2_20("../valid/valid_score_knn_20_20160701170046.csv");
+    ofstream f_valid_score_knn_new2_20_reorder("../valid/reorder_valid_score_knn_20_20160701170046.csv");
 
-    // reorder_score(f_valid_score_knn_new2_20, f_valid_score_knn_new2_20_reorder);
+    reorder_score(f_valid_score_knn_new2_20, f_valid_score_knn_new2_20_reorder);
 
-    // f_valid_score_knn_new2_20.close();
-    // f_valid_score_knn_new2_20_reorder.close();
+    f_valid_score_knn_new2_20.close();
+    f_valid_score_knn_new2_20_reorder.close();
     /* end reorder row_id */
 
     /* generate score from file */
