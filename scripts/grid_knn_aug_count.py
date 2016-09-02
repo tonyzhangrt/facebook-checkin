@@ -600,11 +600,7 @@ def run_grid_knn():
 
             print (ix, iy)
 
-            # start = time.time()
             local_histogram = run_local_histogram(df_train_local, hist_target_cols, hist_transform_func, hist_bins)
-            # end = time.time()
-
-            # print "histogram:", end - start
 
             for inner_ix, [inner_x_min, inner_x_max] in enumerate(fetch_grid_1d_inner(inner_range_x, x_lower, x_upper)):
                 inner_df_train_col = df_train_local[ (df_train_local['x'] >= inner_x_min - inner_x_aug) & (df_train_local['x'] <= inner_x_max + inner_x_aug) ]
@@ -615,20 +611,7 @@ def run_grid_knn():
                         inner_df_train_col[ (inner_df_train_col['y'] >= inner_y_min - inner_y_aug) & (inner_df_train_col['y'] <= inner_y_max + inner_y_aug) ]
                     inner_df_test_local = inner_df_test_col[ (inner_df_test_col['y'] >= inner_y_min) & (inner_df_test_col['y'] < inner_y_max) ]
 
-                    # start = time.time()
                     run_local_knn(inner_df_train_local, inner_df_test_local, [inner_x_min, inner_x_max, inner_y_min, inner_y_max], local_histogram)
-                    # end = time.time()
-
-                    # print "knn:", end - start
-
-
-
-                #     if inner_iy == 0:
-                #         break
-                # break
-        #     if iy == 1:
-        #         break
-        # break
 
 
 

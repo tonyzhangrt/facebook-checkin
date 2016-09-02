@@ -509,15 +509,8 @@ def run_grid_xgb():
             df_test_local = df_test_col[ (df_test_col['y'] >= y_min) & (df_test_col['y'] < y_max) ]           
 
             print (ix, iy)
-            # start = time.time()
+
             run_local_xgb(df_train_local, df_test_local, [x_min, x_max, y_min, y_max])
-            # end = time.time()
-
-            # print "time passed:", end - start
-
-        #     if iy == 10:
-        #         break
-        # break
 
 
 
